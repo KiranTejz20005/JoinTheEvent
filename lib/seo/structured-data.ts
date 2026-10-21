@@ -54,7 +54,8 @@ export interface EventJsonLdInput {
 export function buildEventJsonLd(event: EventJsonLdInput) {
   const appUrl = getAppUrl();
   const url = `${appUrl}/e/${event.slug}`;
-  const description = event.description ?? `Join ${event.title} on JoinTheEvent.`;
+  const description =
+    event.description ?? `Join ${event.title} on JoinTheEvent.`;
 
   const location =
     event.type === "virtual"

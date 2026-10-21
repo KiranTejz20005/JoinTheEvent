@@ -16,10 +16,16 @@ const footerLinks = {
     { href: "#", label: "Pricing" },
   ],
   resources: [
-    { href: "https://github.com/jointheevent/jointheevent", label: "Documentation" },
+    {
+      href: "https://github.com/jointheevent/jointheevent",
+      label: "Documentation",
+    },
     { href: "#", label: "API Reference" },
     { href: "#", label: "Changelog" },
-    { href: "https://github.com/jointheevent/jointheevent", label: "Contributing" },
+    {
+      href: "https://github.com/jointheevent/jointheevent",
+      label: "Contributing",
+    },
   ],
 };
 
