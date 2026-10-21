@@ -69,8 +69,10 @@ export default function InvitationEmail({
 }
 
 InvitationEmail.PreviewProps = {
-  acceptUrl: "https://jointheevent.vercel.app/api/invitations/abc?action=accept",
-  declineUrl: "https://jointheevent.vercel.app/api/invitations/abc?action=decline",
+  acceptUrl:
+    "https://jointheevent.vercel.app/api/invitations/abc?action=accept",
+  declineUrl:
+    "https://jointheevent.vercel.app/api/invitations/abc?action=decline",
   eventTitle: "Summer Product Launch",
   role: "attendee",
 } satisfies InvitationEmailProps;

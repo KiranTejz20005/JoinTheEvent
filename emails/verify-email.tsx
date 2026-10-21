@@ -12,8 +12,8 @@ export default function VerifyEmail({ verifyUrl }: VerifyEmailProps) {
 
       <Section className="px-[32px] py-[28px]">
         <Text className="m-0 text-[#3f3f46] text-[15px] leading-[24px]">
-          Confirm this email address to finish setting up your JoinTheEvent account.
-          The link expires in 1 hour.
+          Confirm this email address to finish setting up your JoinTheEvent
+          account. The link expires in 1 hour.
         </Text>
 
         <Section className="mt-[28px]">
@@ -26,7 +26,8 @@ export default function VerifyEmail({ verifyUrl }: VerifyEmailProps) {
         </Section>
 
         <Text className="mt-[20px] mb-0 text-[#71717a] text-[13px] leading-[20px]">
-          If you didn't create an JoinTheEvent account, you can ignore this email.
+          If you didn't create an JoinTheEvent account, you can ignore this
+          email.
         </Text>
       </Section>
     </EmailLayout>
@@ -34,5 +35,6 @@ export default function VerifyEmail({ verifyUrl }: VerifyEmailProps) {
 }
 
 VerifyEmail.PreviewProps = {
-  verifyUrl: "https://jointheevent.vercel.app/api/auth/verify-email?token=preview",
+  verifyUrl:
+    "https://jointheevent.vercel.app/api/auth/verify-email?token=preview",
 } satisfies VerifyEmailProps;

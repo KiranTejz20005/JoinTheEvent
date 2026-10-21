@@ -1,6 +1,21 @@
-import { getIp } from "@better-auth/core/utils/ip";
+// biome-ignore lint/performance/noNamespaceImport: compatibility across better-auth versions
+import * as ipUtils from "@better-auth/core/utils/ip";
 import type { Ratelimit } from "@upstash/ratelimit";
 import { ratelimit } from "@/lib/redis";
+
+const getClientIp =
+  (
+    ipUtils as {
+      getIp?: (req: Request, opts: object) => string | null;
+      getIP?: (req: Request, opts: object) => string | null;
+    }
+  ).getIp ??
+  (
+    ipUtils as {
+      getIp?: (req: Request, opts: object) => string | null;
+      getIP?: (req: Request, opts: object) => string | null;
+    }
+  ).getIP;
 
 let warnedUnconfigured = false;
 
@@ -29,9 +44,10 @@ export async function checkRateLimit(
     return null;
   }
 
+  const clientIp = getClientIp ? getClientIp(request, {}) : null;
   const key = options.userId
     ? `${scope}:user:${options.userId}`
-    : `${scope}:ip:${getIp(request, {}) ?? "unknown"}`;
+    : `${scope}:ip:${clientIp ?? "unknown"}`;
 
   let result: Awaited<ReturnType<Ratelimit["limit"]>>;
   try {

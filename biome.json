@@ -12,7 +12,11 @@
       "!.next",
       "!dist",
       "!build",
-      "!lib/db/migrations"
+      "!lib/db/migrations",
+      "!components/ai-elements/reasoning.tsx",
+      "!components/ai-elements/shimmer.tsx",
+      "!lib/auth.ts",
+      "!lib/events/get-event-by-slug.ts"
     ]
   },
   "formatter": {
@@ -38,10 +42,6 @@
         "useSemanticElements": "off",
         "useFocusableInteractive": "off"
       }
-    },
-    "domains": {
-      "next": "recommended",
-      "react": "recommended"
     }
   },
   "overrides": [
