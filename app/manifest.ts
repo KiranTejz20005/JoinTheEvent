@@ -5,7 +5,7 @@ export default function manifest(): MetadataRoute.Manifest {
     background_color: "#0a0a0a",
     categories: ["productivity", "social", "events"],
     description:
-      "Create, manage, and discover events. Open source open-source alternative to Luma with AI-powered event management.",
+      "Create, manage, and discover events. Open source modern event management platform with AI-powered event management.",
     display: "standalone",
     icons: [
       { sizes: "any", src: "/icon.svg", type: "image/svg+xml" },
@@ -20,8 +20,8 @@ export default function manifest(): MetadataRoute.Manifest {
         type: "image/png",
       },
     ],
-    name: "OpenLuma | Open Source Event Platform",
-    short_name: "OpenLuma",
+    name: "JoinTheEvent | Open Source Event Platform",
+    short_name: "JoinTheEvent",
     start_url: "/",
     theme_color: "#0a0a0a",
   };

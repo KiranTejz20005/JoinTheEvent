@@ -1,5 +1,5 @@
 /**
- * The OpenLuma mark, as plain inline-styled JSX.
+ * The JoinTheEvent mark, as plain inline-styled JSX.
  *
  * Rendered by Satori inside `next/og` `ImageResponse` (favicon, apple icon, OG
  * images), so it must avoid Tailwind classes and anything outside Satori's

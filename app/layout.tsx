@@ -33,15 +33,15 @@ const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
 });
 
-const SITE_NAME = "OpenLuma";
-const SITE_TITLE = "OpenLuma | Open Source Event Platform";
+const SITE_NAME = "JoinTheEvent";
+const SITE_TITLE = "JoinTheEvent | Open Source Event Platform";
 const SITE_DESCRIPTION =
-  "Create, manage, and discover events. Open source open-source alternative to Luma with AI-powered event management, RSVPs, invitations, and check-in.";
+  "Create, manage, and discover events. Open source modern event management platform with AI-powered event management, RSVPs, invitations, and check-in.";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/" },
   applicationName: SITE_NAME,
-  authors: [{ name: "OpenLuma", url: "https://github.com/openluma" }],
+  authors: [{ name: "JoinTheEvent", url: "https://github.com/jointheevent" }],
   creator: SITE_NAME,
   description: SITE_DESCRIPTION,
   keywords: [

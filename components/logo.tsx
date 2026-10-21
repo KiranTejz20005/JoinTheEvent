@@ -28,7 +28,7 @@ export function Logo({ className, ...props }: React.ComponentProps<"svg">) {
     <svg
       className={cn("h-5", className)}
       fill="none"
-      viewBox="0 0 130 24"
+      viewBox="0 0 160 24"
       xmlns="http://www.w3.org/2000/svg"
       {...props}
     >
@@ -52,7 +52,7 @@ export function Logo({ className, ...props }: React.ComponentProps<"svg">) {
         x="30"
         y="17.5"
       >
-        OpenLuma
+        JoinTheEvent
       </text>
     </svg>
   );
