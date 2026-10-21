@@ -7,7 +7,7 @@ import { PixelParagraph } from "@/components/ui/pixel-paragraph-words";
 import { buildPageMetadata } from "@/lib/seo/metadata";
 
 const HOME_DESCRIPTION =
-  "Run events end to end on OpenLuma: create them with AI, share a public page, collect RSVPs, send invitations, and check attendees in. All open source.";
+  "Run events end to end on JoinTheEvent: create them with AI, share a public page, collect RSVPs, send invitations, and check attendees in. All open source.";
 
 export const metadata: Metadata = buildPageMetadata({
   description: HOME_DESCRIPTION,
@@ -16,7 +16,7 @@ export const metadata: Metadata = buildPageMetadata({
   images: ["/opengraph-image"],
   path: "/",
   // Title is intentionally omitted: the root layout supplies the default
-  // (untemplated) one, and setting it here would render "… · OpenLuma".
+  // (untemplated) one, and setting it here would render "… · JoinTheEvent".
 });
 
 export default function HomePage() {
@@ -37,7 +37,7 @@ export default function HomePage() {
               font="circle"
               pixelWordClassName="text-foreground"
               pixelWords={["creation to check-in", "AI assistant"]}
-              text="From creation to check-in, OpenLuma handles the entire event lifecycle with modern tools and an AI assistant."
+              text="From creation to check-in, JoinTheEvent handles the entire event lifecycle with modern tools and an AI assistant."
             />
           </div>
           <FeatureCards />

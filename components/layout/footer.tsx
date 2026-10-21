@@ -16,10 +16,10 @@ const footerLinks = {
     { href: "#", label: "Pricing" },
   ],
   resources: [
-    { href: "https://github.com/Nishitbaria/openluma", label: "Documentation" },
+    { href: "https://github.com/jointheevent/jointheevent", label: "Documentation" },
     { href: "#", label: "API Reference" },
     { href: "#", label: "Changelog" },
-    { href: "https://github.com/Nishitbaria/openluma", label: "Contributing" },
+    { href: "https://github.com/jointheevent/jointheevent", label: "Contributing" },
   ],
 };
 
@@ -50,7 +50,7 @@ export function Footer() {
               <a
                 aria-label="GitHub"
                 className="inline-flex items-center justify-center rounded-lg border p-2 text-muted-foreground transition-colors hover:bg-accent hover:text-foreground"
-                href="https://github.com/Nishitbaria/openluma"
+                href="https://github.com/jointheevent/jointheevent"
                 rel="noopener noreferrer"
                 target="_blank"
               >
@@ -91,7 +91,7 @@ export function Footer() {
         {/* Bottom bar */}
         <div className="flex flex-col items-center justify-between gap-3 py-6 sm:flex-row">
           <p className="text-muted-foreground text-xs">
-            &copy; {new Date().getFullYear()} OpenLuma. All rights reserved.
+            &copy; {new Date().getFullYear()} JoinTheEvent. All rights reserved.
           </p>
           <p className="text-muted-foreground text-xs">
             Built with Next.js, Vercel AI SDK & shadcn/ui. Licensed under MIT.

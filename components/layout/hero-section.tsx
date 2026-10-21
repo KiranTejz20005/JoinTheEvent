@@ -40,11 +40,11 @@ export function HeroSection() {
           {/* Single memorable claim, not a multi-feature pill */}
           <div className="mb-8 inline-flex items-center rounded-full border bg-muted/50 px-4 py-1.5 text-muted-foreground text-sm">
             <AnimatedShinyText>
-              Open-source Lu.ma, no vendor lock-in
+              Modern event management, no vendor lock-in
             </AnimatedShinyText>
           </div>
 
-          {/* Brand-first: OpenLuma is the hero-level signal */}
+          {/* Brand-first: JoinTheEvent is the hero-level signal */}
           <PixelHeading
             autoPlay
             className="font-bold text-5xl leading-none tracking-tight sm:text-7xl lg:text-8xl"
@@ -53,7 +53,7 @@ export function HeroSection() {
             showLabel={false}
             staggerDelay={120}
           >
-            OpenLuma
+            JoinTheEvent
           </PixelHeading>
 
           <p className="mt-4 font-semibold text-2xl text-foreground tracking-tight sm:text-3xl">
