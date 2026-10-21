@@ -183,9 +183,9 @@ RsvpStatusEmail.PreviewProps = {
     timezone: "America/Los_Angeles",
   },
   eventTitle: "Summer Product Launch",
-  eventUrl: "https://openluma.vercel.app/e/summer-launch",
+  eventUrl: "https://jointheevent.vercel.app/e/summer-launch",
   status: "approved",
-  ticketUrl: "https://openluma.vercel.app/ticket/evt_123",
+  ticketUrl: "https://jointheevent.vercel.app/ticket/evt_123",
 } satisfies RsvpStatusEmailProps;
 
 export { RsvpStatusEmail };
