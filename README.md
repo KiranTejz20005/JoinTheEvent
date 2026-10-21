@@ -1,15 +1,15 @@
-# OpenLuma
+# JoinTheEvent
 
-[![CI](https://github.com/Nishitbaria/openluma/actions/workflows/ci.yml/badge.svg)](https://github.com/Nishitbaria/openluma/actions/workflows/ci.yml)
-[![License: MIT](https://img.shields.io/badge/License-MIT-black.svg)](https://github.com/Nishitbaria/openluma/blob/main/LICENSE)
-[![Release](https://img.shields.io/github/v/release/openluma/openluma?color=black)](https://github.com/Nishitbaria/openluma/releases)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-black.svg)](https://github.com/Nishitbaria/openluma/blob/main/CONTRIBUTING.md)
+[![CI](https://github.com/jointheevent/jointheevent/actions/workflows/ci.yml/badge.svg)](https://github.com/jointheevent/jointheevent/actions/workflows/ci.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-black.svg)](https://github.com/jointheevent/jointheevent/blob/main/LICENSE)
+[![Release](https://img.shields.io/github/v/release/jointheevent/jointheevent?color=black)](https://github.com/jointheevent/jointheevent/releases)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-black.svg)](https://github.com/jointheevent/jointheevent/blob/main/CONTRIBUTING.md)
 
 An open-source event management platform inspired by [events platform](https://lu.ma), built with Next.js 16, AI-powered event creation, and a modern full-stack architecture.
 
-> **Use natural language to create, manage, and discover events.** OpenLuma features an AI agent that handles event operations through conversation, alongside a full-featured web UI for hosts and attendees.
+> **Use natural language to create, manage, and discover events.** JoinTheEvent features an AI agent that handles event operations through conversation, alongside a full-featured web UI for hosts and attendees.
 
-**[Live Demo](https://openluma.vercel.app)** · **[Report Bug](https://github.com/Nishitbaria/openluma/issues/new?template=bug_report.yml)** · **[Request Feature](https://github.com/Nishitbaria/openluma/issues/new?template=feature_request.yml)**
+**[Live Demo](https://jointheevent.vercel.app)** · **[Report Bug](https://github.com/jointheevent/jointheevent/issues/new?template=bug_report.yml)** · **[Request Feature](https://github.com/jointheevent/jointheevent/issues/new?template=feature_request.yml)**
 
 ## Features
 
@@ -49,8 +49,8 @@ An open-source event management platform inspired by [events platform](https://l
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/Nishitbaria/openluma.git
-cd openluma
+git clone https://github.com/jointheevent/jointheevent.git
+cd jointheevent
 ```
 
 ### 2. Install dependencies
@@ -102,7 +102,7 @@ Open [http://localhost:3000](http://localhost:3000) in your browser.
 ## Project Structure
 
 ```
-openluma/
+jointheevent/
 ├── app/
 │   ├── (dashboard)/         # Authenticated host/attendee pages
 │   │   └── dashboard/
@@ -133,7 +133,7 @@ openluma/
 
 ## AI Agent Architecture
 
-OpenLuma uses a **multi-agent delegation pattern** powered by the Vercel AI SDK:
+JoinTheEvent uses a **multi-agent delegation pattern** powered by the Vercel AI SDK:
 
 ```
 User Message
@@ -202,7 +202,7 @@ The core data model:
 
 ## Deployment
 
-OpenLuma can be deployed to any platform that supports Next.js:
+JoinTheEvent can be deployed to any platform that supports Next.js:
 
 - **[Vercel](https://vercel.com)**: Zero-config deployment (recommended)
 - **[Railway](https://railway.app)**: Full-stack with managed PostgreSQL

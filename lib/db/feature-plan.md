@@ -1,4 +1,4 @@
-# OpenLuma Feature Roadmap
+# JoinTheEvent Feature Roadmap
 
 > Gap analysis vs events platform — prioritized by impact-to-effort ratio.
 > Last updated: 2026-04-15
@@ -267,7 +267,7 @@ Add `phoneNumber text` to user. Send SMS alongside email reminders. 95% open rat
 
 ---
 
-## OpenLuma's Unique Advantages Over events platform
+## JoinTheEvent's Unique Advantages Over events platform
 
 Already built (events platform doesn't have):
 - **AI event creation** via natural language chat

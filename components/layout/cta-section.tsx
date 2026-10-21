@@ -30,7 +30,7 @@ export function CtaSection() {
             font="circle"
             pixelWordClassName="text-foreground"
             pixelWords={["MIT-licensed", "self-host", "vendor lock-in"]}
-            text="OpenLuma is MIT-licensed and free to self-host. Inspect the code, contribute features, or deploy your own instance. No vendor lock-in, no surprise pricing."
+            text="JoinTheEvent is MIT-licensed and free to self-host. Inspect the code, contribute features, or deploy your own instance. No vendor lock-in, no surprise pricing."
           />
           <div className="mt-8 flex flex-col items-center justify-center gap-4 sm:flex-row">
             <MetalButton asChild size="lg">
@@ -41,7 +41,7 @@ export function CtaSection() {
             </MetalButton>
             <Button asChild size="lg" variant="outline">
               <a
-                href="https://github.com/Nishitbaria/openluma"
+                href="https://github.com/jointheevent/jointheevent"
                 rel="noopener noreferrer"
                 target="_blank"
               >

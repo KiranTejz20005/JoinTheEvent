@@ -1,6 +1,6 @@
-# OpenLuma
+# JoinTheEvent
 
-> OpenLuma is an open-source event management platform inspired by events platform. Hosts create, manage, and share events — by hand or by chatting with an AI agent — and guests discover events, RSVP, and get QR code tickets. Built with Next.js 16, PostgreSQL + Drizzle, Better Auth, and the Vercel AI SDK. MIT licensed.
+> JoinTheEvent is an open-source event management platform inspired by events platform. Hosts create, manage, and share events — by hand or by chatting with an AI agent — and guests discover events, RSVP, and get QR code tickets. Built with Next.js 16, PostgreSQL + Drizzle, Better Auth, and the Vercel AI SDK. MIT licensed.
 
 ## Key features
 
@@ -13,14 +13,14 @@
 
 ## Key pages
 
-- [Home](https://openluma.vercel.app/): What OpenLuma is and how to get started
-- [Discover events](https://openluma.vercel.app/events): Upcoming public events
+- [Home](https://jointheevent.vercel.app/): What JoinTheEvent is and how to get started
+- [Discover events](https://jointheevent.vercel.app/events): Upcoming public events
 - Event page (`/e/{slug}`): Details, host, location, and RSVP for a single public event
 - Host profile (`/u/{userId}`): A host's public profile and their public events
-- [Sign in](https://openluma.vercel.app/sign-in): Email or Google sign-in to host or RSVP
+- [Sign in](https://jointheevent.vercel.app/sign-in): Email or Google sign-in to host or RSVP
 
 ## Source
 
-- [GitHub repository](https://github.com/Nishitbaria/openluma): Source code, setup guide, and issues
-- [Contributing](https://github.com/Nishitbaria/openluma/blob/main/CONTRIBUTING.md)
-- [License (MIT)](https://github.com/Nishitbaria/openluma/blob/main/LICENSE)
+- [GitHub repository](https://github.com/jointheevent/jointheevent): Source code, setup guide, and issues
+- [Contributing](https://github.com/jointheevent/jointheevent/blob/main/CONTRIBUTING.md)
+- [License (MIT)](https://github.com/jointheevent/jointheevent/blob/main/LICENSE)

@@ -65,7 +65,7 @@ export async function generateMetadata({
     };
   }
 
-  const description = event.description ?? `Join ${event.title} on OpenLuma`;
+  const description = event.description ?? `Join ${event.title} on JoinTheEvent`;
 
   // `images` is omitted — the sibling opengraph-image.tsx is wired in
   // automatically for both `og:image` and `twitter:image`.

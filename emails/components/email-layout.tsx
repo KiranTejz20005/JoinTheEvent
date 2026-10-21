@@ -54,7 +54,7 @@ export function EmailLayout({ preview, title, children }: EmailLayoutProps) {
                 className="font-bold text-[#18181b] text-[20px] tracking-tight no-underline"
                 href={appUrl}
               >
-                Open<span className="text-[#71717a]">Luma</span>
+                JoinThe<span className="text-[#71717a]">Event</span>
               </Link>
             </Section>
 
@@ -68,12 +68,12 @@ export function EmailLayout({ preview, title, children }: EmailLayoutProps) {
               <Text className="m-0 text-[#a1a1aa] text-[12px] leading-[18px]">
                 You're receiving this email from{" "}
                 <Link className="text-[#71717a] underline" href={appUrl}>
-                  OpenLuma
+                  JoinTheEvent
                 </Link>{" "}
                 — the open-source event platform.
               </Text>
               <Text className="m-0 mt-[6px] text-[#a1a1aa] text-[12px] leading-[18px]">
-                © {new Date().getFullYear()} OpenLuma. All rights reserved.
+                © {new Date().getFullYear()} JoinTheEvent. All rights reserved.
               </Text>
             </Section>
           </Container>

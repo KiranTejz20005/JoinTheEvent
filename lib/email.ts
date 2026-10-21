@@ -12,7 +12,7 @@ export const resend = apiKey ? new Resend(apiKey) : null;
 
 const appUrl = getAppUrl();
 const fromEmail =
-  process.env.EMAIL_FROM ?? "OpenLuma <noreply@openluma.nishitbaria.pro>";
+  process.env.EMAIL_FROM ?? "JoinTheEvent <noreply@jointheevent.com>";
 
 type EmailPayload = Parameters<NonNullable<typeof resend>["emails"]["send"]>[0];
 type EmailSendResult = Awaited<
@@ -148,7 +148,7 @@ function generateICS(event: {
   return [
     "BEGIN:VCALENDAR",
     "VERSION:2.0",
-    "PRODID:-//OpenLuma//Event//EN",
+    "PRODID:-//JoinTheEvent//Event//EN",
     "METHOD:PUBLISH",
     "BEGIN:VEVENT",
     `DTSTART:${formatDate(event.startTime)}`,
@@ -351,7 +351,7 @@ export async function sendVerificationEmail(
     {
       from: fromEmail,
       html,
-      subject: "Verify your email for OpenLuma",
+      subject: "Verify your email for JoinTheEvent",
       to,
     },
     `verify-${token}`

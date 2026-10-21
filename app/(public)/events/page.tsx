@@ -16,7 +16,7 @@ import { events, eventTypeEnum } from "@/lib/db/schema";
 import { buildPageMetadata } from "@/lib/seo/metadata";
 
 const EVENTS_DESCRIPTION =
-  "Browse upcoming public events on OpenLuma — meetups, workshops, and virtual sessions you can RSVP to in one click.";
+  "Browse upcoming public events on JoinTheEvent — meetups, workshops, and virtual sessions you can RSVP to in one click.";
 
 // Canonical points at the bare path so `?search=` and `?type=` variants
 // consolidate into one indexed URL instead of competing with each other.

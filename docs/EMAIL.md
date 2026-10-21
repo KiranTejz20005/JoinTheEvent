@@ -1,6 +1,6 @@
 # Email operations
 
-OpenLuma sends transactional email through [Resend](https://resend.com). This
+JoinTheEvent sends transactional email through [Resend](https://resend.com). This
 doc covers what you must configure for reliable inbox delivery, plus the code
 conventions the app follows.
 
@@ -9,7 +9,7 @@ conventions the app follows.
 | Variable | Required | Purpose |
 |----------|----------|---------|
 | `RESEND_API_KEY` | yes (prod) | Resend API key. If unset, all sends are skipped (no-op) so local dev works without it. |
-| `EMAIL_FROM` | recommended | From header, e.g. `OpenLuma <noreply@openluma.nishitbaria.pro>`. Must be on a **verified** domain. |
+| `EMAIL_FROM` | recommended | From header, e.g. `JoinTheEvent <noreply@jointheevent.com>`. Must be on a **verified** domain. |
 | `NEXT_PUBLIC_APP_URL` | yes | Base URL used to build event/ticket links in emails. |
 
 ## Deliverability checklist (DNS)
@@ -25,15 +25,15 @@ DNS records it gives you.
 - [ ] **DMARC** — TXT at `_dmarc.<domain>`. Roll out gradually:
       `p=none` (monitor) → `p=quarantine; pct=25` → `p=reject`.
       Include `rua=mailto:...` to receive aggregate reports.
-- [ ] Prefer a **dedicated subdomain** for sending (e.g. `mail.openluma...`) so
+- [ ] Prefer a **dedicated subdomain** for sending (e.g. `mail.jointheevent...`) so
       app-domain reputation stays isolated.
 
 ### Verify records from the terminal
 
 ```bash
-dig TXT openluma.nishitbaria.pro +short          # SPF
-dig TXT resend._domainkey.openluma.nishitbaria.pro +short   # DKIM (selector may differ)
-dig TXT _dmarc.openluma.nishitbaria.pro +short   # DMARC
+dig TXT jointheevent.com +short          # SPF
+dig TXT resend._domainkey.jointheevent.com +short   # DKIM (selector may differ)
+dig TXT _dmarc.jointheevent.com +short   # DMARC
 ```
 
 Empty output = the record is missing. Also run a live test through

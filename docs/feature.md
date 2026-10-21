@@ -1,4 +1,4 @@
-# OpenLuma — Feature Backlog
+# JoinTheEvent — Feature Backlog
 
 A prioritized list of improvements and new features to build. Pick from **Recommended first** based on impact vs effort, or choose by theme.
 
@@ -57,7 +57,7 @@ A prioritized list of improvements and new features to build. Pick from **Recomm
 
 ### [ ] 3. Expand AI agent tools
 
-**Why:** Differentiates OpenLuma from generic event tools.
+**Why:** Differentiates JoinTheEvent from generic event tools.
 
 **What to build:**
 
