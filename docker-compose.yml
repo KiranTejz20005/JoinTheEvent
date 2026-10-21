@@ -5,9 +5,9 @@ services:
     ports:
       - "5432:5432"
     environment:
-      POSTGRES_USER: openluma
-      POSTGRES_PASSWORD: openluma
-      POSTGRES_DB: openluma
+      POSTGRES_USER: jointheevent
+      POSTGRES_PASSWORD: jointheevent
+      POSTGRES_DB: jointheevent
     volumes:
       - pgdata:/var/lib/postgresql/data
 

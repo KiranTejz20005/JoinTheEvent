@@ -4,11 +4,11 @@
 This version has breaking changes — APIs, conventions, and file structure may all differ from your training data. Read the relevant guide in `node_modules/next/dist/docs/` before writing any code. Heed deprecation notices.
 <!-- END:nextjs-agent-rules -->
 
-# OpenLuma
+# JoinTheEvent
 
 Open-source event management platform inspired by events platform — Next.js 16, AI-powered event creation, PostgreSQL + Drizzle, Better Auth.
 
-**Repo:** https://github.com/Nishitbaria/openluma · **Live:** https://openluma.vercel.app
+**Repo:** https://github.com/jointheevent/jointheevent · **Live:** https://jointheevent.vercel.app
 
 ## Commands
 

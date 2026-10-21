@@ -30,7 +30,7 @@ jobs:
       - name: Build
         run: bun run build
         env:
-          DATABASE_URL: ${{ secrets.DATABASE_URL || 'postgresql://postgres:postgres@localhost:5432/openluma' }}
+          DATABASE_URL: ${{ secrets.DATABASE_URL || 'postgresql://postgres:postgres@localhost:5432/jointheevent' }}
           BETTER_AUTH_SECRET: ci-secret-not-used-in-production
           BETTER_AUTH_URL: http://localhost:3000
           NEXT_PUBLIC_APP_URL: http://localhost:3000

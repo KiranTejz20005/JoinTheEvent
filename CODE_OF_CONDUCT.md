@@ -2,7 +2,7 @@
 
 ## Our Pledge
 
-We are committed to making participation in OpenLuma a harassment-free experience for everyone, regardless of age, body size, disability, ethnicity, gender identity, level of experience, nationality, personal appearance, race, religion, or sexual identity.
+We are committed to making participation in JoinTheEvent a harassment-free experience for everyone, regardless of age, body size, disability, ethnicity, gender identity, level of experience, nationality, personal appearance, race, religion, or sexual identity.
 
 ## Our Standards
 

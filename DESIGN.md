@@ -1,4 +1,4 @@
-# OpenLuma Design System
+# JoinTheEvent Design System
 
 Source of truth for visual and interaction decisions. Codifies what already ships — not a rebrand.
 
@@ -10,7 +10,7 @@ Agent shorthand lives in [`AGENTS.md`](AGENTS.md); this file is the full referen
 
 ## 1. Product + memorable thing
 
-OpenLuma is an open-source event platform: AI-assisted creation, public pages, RSVPs, invitations, and check-in — without SaaS lock-in.
+JoinTheEvent is an open-source event platform: AI-assisted creation, public pages, RSVPs, invitations, and check-in — without SaaS lock-in.
 
 The one memorable idea every marketing surface should reinforce:
 
@@ -66,7 +66,7 @@ Loaded in `app/layout.tsx`:
 
 ### Hierarchy on landing
 
-1. Brand (hero-level OpenLuma signal)
+1. Brand (hero-level JoinTheEvent signal)
 2. One memorable claim (vendor lock-in / open-source events platform)
 3. Supporting line (e.g. “Events, simplified.”) — never replaces the brand
 4. Short body + single primary CTA group
@@ -109,7 +109,7 @@ No scroll-jacking, no perpetual particle circus, no competing animated badges.
 
 - **One composition** in the first viewport — not a dashboard of widgets.
 - **Hero budget:** brand, one claim, one short support line, one CTA group, one dominant visual plane (`FlickeringGrid`). No stats strips, schedule snippets, or feature pill clusters in the hero.
-- **Brand test:** OpenLuma must remain the hero-level signal.
+- **Brand test:** JoinTheEvent must remain the hero-level signal.
 - **One job per section:** one headline, one short support line, then content.
 - **Cards:** default off. Cards only when they are the container for a user interaction. Prefer low-chrome lists/rows for feature catalogs.
 - **Section rhythm:** public sections ~`py-24`; spacing base `--spacing: 0.25rem` (4px). Prefer clearer hierarchy over more padding.

@@ -13,7 +13,7 @@ We recommend always running the latest version from `main` or the most recent re
 
 **Please do not report security vulnerabilities through public GitHub issues.**
 
-If you discover a security vulnerability, please email **dev@bundled.design** with the subject line `[SECURITY] OpenLuma vulnerability`.
+If you discover a security vulnerability, please email **dev@bundled.design** with the subject line `[SECURITY] JoinTheEvent vulnerability`.
 
 Include:
 - A description of the vulnerability
@@ -32,7 +32,7 @@ You will receive a response within **48 hours**. We take all security reports se
 
 ## Scope
 
-This policy covers the OpenLuma application code at https://github.com/Nishitbaria/openluma. It does not cover third-party dependencies — please report those to the respective upstream project.
+This policy covers the JoinTheEvent application code at https://github.com/jointheevent/jointheevent. It does not cover third-party dependencies — please report those to the respective upstream project.
 
 ## Known Security Considerations
 

@@ -1,6 +1,6 @@
-# Contributing to OpenLuma
+# Contributing to JoinTheEvent
 
-Thanks for your interest in contributing! OpenLuma is actively maintained and welcomes contributions of all kinds — bug fixes, features, docs, and more.
+Thanks for your interest in contributing! JoinTheEvent is actively maintained and welcomes contributions of all kinds — bug fixes, features, docs, and more.
 
 ## Table of Contents
 
@@ -14,7 +14,7 @@ Thanks for your interest in contributing! OpenLuma is actively maintained and we
 ## Getting Started
 
 1. Fork the repository
-2. Clone your fork: `git clone https://github.com/YOUR_USERNAME/openluma.git`
+2. Clone your fork: `git clone https://github.com/YOUR_USERNAME/jointheevent.git`
 3. Create a branch: `git checkout -b feat/your-feature-name`
 
 ## Development Setup
@@ -61,7 +61,7 @@ bun dev
 
 ### Picking an issue
 
-- Check the [issue tracker](https://github.com/Nishitbaria/openluma/issues) for open issues
+- Check the [issue tracker](https://github.com/jointheevent/jointheevent/issues) for open issues
 - Issues tagged `good first issue` are ideal for new contributors
 - Comment on an issue before starting work to avoid duplicate effort
 
@@ -94,10 +94,10 @@ bun dev
 
 ## Reporting Issues
 
-- Use the [bug report template](https://github.com/Nishitbaria/openluma/issues/new?template=bug_report.yml) for bugs
-- Use the [feature request template](https://github.com/Nishitbaria/openluma/issues/new?template=feature_request.yml) for ideas
+- Use the [bug report template](https://github.com/jointheevent/jointheevent/issues/new?template=bug_report.yml) for bugs
+- Use the [feature request template](https://github.com/jointheevent/jointheevent/issues/new?template=feature_request.yml) for ideas
 - Search existing issues before opening a new one
 
 ## Questions?
 
-Open a [GitHub Discussion](https://github.com/Nishitbaria/openluma/discussions) or reach out via the issue tracker.
+Open a [GitHub Discussion](https://github.com/jointheevent/jointheevent/discussions) or reach out via the issue tracker.

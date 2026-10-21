@@ -1,5 +1,5 @@
 name: Bug Report
-description: Report a bug in OpenLuma
+description: Report a bug in JoinTheEvent
 labels: ["bug", "needs-triage"]
 body:
   - type: markdown
