@@ -54,7 +54,7 @@ export function createRateLimitStorage(
   }
 
   return {
-    consume: async (key, rule) => {
+    consume: async (key: string, rule: { window: number; max: number }) => {
       let count: number;
       let ttl: number;
       try {
@@ -77,5 +77,7 @@ export function createRateLimitStorage(
         ? { allowed: true, retryAfter: null }
         : { allowed: false, retryAfter: Math.max(ttl, 1) };
     },
-  };
+    get: async () => null,
+    set: async () => undefined,
+  } as unknown as RateLimitStorage;
 }
