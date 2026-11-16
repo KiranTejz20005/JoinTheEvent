@@ -6,6 +6,29 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ---
 
+## [0.4.0](https://github.com/KiranTejz20005/JoinTheEvent/compare/v0.3.0...v0.4.0) (2026-11-16)
+
+
+### Features
+
+* **ai-email:** rebrand AI assistants, email templates, and calendar exports ([47db9a3](https://github.com/KiranTejz20005/JoinTheEvent/commit/47db9a367047dc627c8cf63ddaa1be8f1262c442))
+* **brand:** update application identity, metadata, and core branding to JoinTheEvent ([32f1dce](https://github.com/KiranTejz20005/JoinTheEvent/commit/32f1dcea4fc588281b0d241e312d18fe9a0a3acb))
+* rebrand application to JoinTheEvent ([06c8172](https://github.com/KiranTejz20005/JoinTheEvent/commit/06c8172b4d7778f6436778e0de412eca62c2fcea))
+* **ui:** update public pages, auth, and tickets to JoinTheEvent ([a1fb8c1](https://github.com/KiranTejz20005/JoinTheEvent/commit/a1fb8c1fbb8552d7b97f23fe0ff9232a636980cb))
+
+
+### Bug Fixes
+
+* **lint:** format files and configure biome exclusions to prevent module resolver panic ([3261096](https://github.com/KiranTejz20005/JoinTheEvent/commit/3261096c54c6675abb8eeb1f8859d1f8071827f6))
+* resolve linter formatting, Biome compiler panic, and TypeScript errors ([7f9bd95](https://github.com/KiranTejz20005/JoinTheEvent/commit/7f9bd95bb1d2e8098075f4d43c223c9adec5a533))
+* **types:** resolve Better Auth getIP import and rate limit storage types ([c98c636](https://github.com/KiranTejz20005/JoinTheEvent/commit/c98c63635abf3bbbeb1c8f22ec54b11e7b667641))
+* **types:** support cross-version better-auth IP helper and rate limit storage contract ([271eb22](https://github.com/KiranTejz20005/JoinTheEvent/commit/271eb226bce478975cb6f4b6da84e1831b14269d))
+
+
+### Documentation
+
+* **config:** update environment configs, docker setup, and documentation ([1305b64](https://github.com/KiranTejz20005/JoinTheEvent/commit/1305b641ebd04f1cf971e4eee290dbd546069061))
+
 ## [0.3.0](https://github.com/jointheevent/jointheevent/compare/v0.2.0...v0.3.0) (2026-08-08)
 
 
